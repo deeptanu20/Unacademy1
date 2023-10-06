@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+html,body{
+    height:500vh;
+    width: 100%;
+}
+
+#main{
+    height: 60px;
+    width: 100%;
+   
+    display: flex;
+    text-align: center;
+    justify-content: end;
+}
+#nav button{
+  margin-top: 12px;
+  margin-right: 30px;
+  border-radius: 8px;
+ 
+
+
+}
+
+#nav button h5{
+
+    height: 42px;
+    width: 130px;
+    border-radius: 6px;
+    background-color: white;
+   padding-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    
+    
+    color: rgb(87, 86, 86);
+}
+#nav button h6{
+  
+    height: 42px;
+    width: 130px;
+  padding-top: 11px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #3C4852;
+    color: white; 
+    cursor: pointer;
+    border-color:white;
+}
+
+#nav img{
+    height: 50px;
+    width: 190px;
+    text-align: center;
+    justify-content: baseline;
+    position: absolute;
+    left: 2%;
+    object-fit: cover;
+}
+#img1 img{
+
+    height: 50px;
+    width: 60px;
+    object-fit: contain;
+   position: absolute;
+   left: 35%;
+   top: 1%;
+}
+
+
+#img2 img{
+    height: 500px;
+    width: 500px;
+    
+    object-fit: contain;
+   position: absolute;
+   left: 10%;
+   top: 24%;
+}
+#part2 h3{
+    position: absolute;
+    top: 14%;
+    left: 13%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #3C4852;
+}
+
+#part2 h4{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #3C4852;
+}
+
+#part2 h5{
+    position: absolute;
+    top:29%;
+    left: 13%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(44, 42, 42);
+}
+
+#part2 h5 span{
+  
+    color: rgb(48, 230, 172);
+}
+#box input{
+
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    height: 50px;
+    width: 490px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    border-color: black;
+
+}
+#box h6{
+    position: absolute;
+    top: 105%;
+    left: 10%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(156, 154, 154);
+
+
+}
+
+#box button h5{
+  
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    height: 50px;
+    width: 490px;
+    background-color: #3C4852;
+    color: white;
+     font-size: 17px;
+     padding-top: 12px;    
+
+}
+
+#part4 h2{
+
+    position: absolute;
+    top: 126%;
+    left: 10%;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #3C4852;
+}
+
+
+#part4 h4{
+
+    position: absolute;
+    top: 133%;
+    left: 10%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #3C4852;
+}
+#part4 h4 span{
+
+ 
+    color:rgb(48, 230, 172);;
+}
+  
+
+#box3 input{
+
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    height: 50px;
+    width: 490px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    border-color: black;
+
+}
+#box4 h6{
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color:rgb(107, 105, 105);
+
+}
+#box4 img{
+
+    height: 360px;
+    width: 360px;
+    
+    object-fit: contain;
+   position: absolute;
+   left: 35%;
+   top: 150%;
+  animation:slider 5s infinite;
+
+}
+  @keyframes slider {
+      50%{ 
+        left:38%;
+      }
+      100%{
+        left: 10%;
+      }
+  }
+  
+
+
+  #part5 img{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    display:flex;
+  
+    position: absolute;
+    top: 187%;
+    left: 13%; ;
+     
+  }
+
+  #part5 h3{
+  
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    position: absolute;
+    top: 251%;
+    left: 13%;
+    color: rgb(70, 92, 235);
+     
+  }
+
+  #part5 h4{
+  
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    position: absolute;
+    top: 258%;
+    left: 13%;
+    color: #3C4852;
+     
+  }
+
+  
+  #part5 h5{
+  
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    position: absolute;
+    top: 264%;
+    left: 13%;
+    color: #3C4852;
+     
+  }
+
+  #part6 h4{
+    position: absolute;
+    top: 270%;
+    left: 13%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 300;
+    color: rgb(150, 147, 147);
+
+  }
+  #part6 h5{
+    position: absolute;
+    top: 274%;
+    left: 13%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 300;
+    color: rgb(150, 147, 147);
+
+  }
+
+  #part6 h3{
+    position: absolute;
+    top: 278%;
+    left: 13%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: rgb(2, 55, 55);
+
+  }
+
+
+  #part6 h2{
+    position: absolute;
+    top: 283%;
+    left: 13%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: rgb(2, 55, 55);
+
+  }
+
+  #part6 h6{
+    position: absolute;
+    top: 288%;
+    left: 13%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    color: rgb(2, 55, 55);
+
+  }
+
+  #part6 button{
+    position: absolute;
+    top: 295%;
+    left: 13%;
+    height: 45px;
+    width: 150px;
+    background-color: rgb(5, 231, 155);
+   cursor: pointer;
+
+  }
+
+  #part6 button h1{
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   color: white;
+   padding-top: 2px;
+  
+
+  }
+
+
+  #part7 img{
+    position: absolute;
+    top:290%;
+    left: 8%;
+    height: 500px;
+    width:700px;
+    object-fit:contain;
+  
+  }
+
+  #part8 h3{
+    position: absolute;
+    top: 350%;
+    left: 22%;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+    color:rgb(24, 24, 24);
+  }
+
+  #part8 h4{
+    position: absolute;
+    top: 355%;
+    left: 20%;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+    color:rgb(119, 115, 115);
+  }
+
+  #part8 h5{
+    position: absolute;
+    top: 358%;
+    left: 20%;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+    color:rgb(119, 115, 115);
+  }
+
+  #part8 img{
+    position: absolute;
+    top: 367%;
+    left: 14%;
+    border-radius: 5px;
+    height: 55px;
+  }
+
+  #part9 img{
+    position: absolute;
+    top: 367%;
+    left: 34%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 55px;
+  }
+
+  #part10 img{
+
+    position: absolute;
+    top: 380%;
+    left: 19%;
+    height: 300px;
+    width:300px;
+    object-fit: contain;
+
+  }
+
+  #part11 img{
+
+    position: absolute;
+    top: 415%;
+    left: 8%;
+    height: 600px;
+    width:700px;
+    object-fit: contain;
+
+  }
